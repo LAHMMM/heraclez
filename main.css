@@ -69,14 +69,31 @@ h1 {
   padding-top: 5px;
 }
 
+.nav-icons {
+  font-size: 2em;
+  border: 1px solid grey;
+}
+
+.nav-icons a{
+  color: white;
+}
 
 p {
   font-family: verdana;
   font-size: 20px;
-
 }
+
 body {
   margin: 0;
+}
+
+.btn-primary {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.background-white {
+  background: white;
 }
 
 .title-name {
