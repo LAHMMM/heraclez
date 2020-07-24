@@ -55,6 +55,11 @@ h1 {
 .monospace {
   font-family: "Lucida Console", Courier, monospace;
 }
+
+.nav-bar {
+  background: black;
+}
+
 .navbar-header {
   margin: 0;
   padding: 0;
@@ -70,12 +75,21 @@ h1 {
 }
 
 .nav-icons {
-  font-size: 2em;
-  border: 1px solid grey;
+  font-size: 2.5em;
 }
 
 .nav-icons a{
   color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  margin: auto;
 }
 
 p {
