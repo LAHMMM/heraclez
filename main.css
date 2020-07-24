@@ -14,21 +14,13 @@ h2 {
   margin-right: auto;
   opacity: 0.5;
 }
-.
+
 .logo:hover {
   opacity: 1.0;
 }
 
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-
 div.background {
-
-   border: 2px solid black;
+  border: 2px solid black;
 }
 
 .transbox {
@@ -92,11 +84,6 @@ h1 {
   margin: auto;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-
 body {
   margin: 0;
 }
@@ -115,8 +102,19 @@ body {
   background-color:rgb(255, 255, 255, 0.1);
 }
 
-
 .h-nav {
   border: 1px solid black;
   padding: 24px;
+}
+
+.stream-date {
+  color: rgb(240, 40, 74)
+}
+
+.bg-dark {
+  background-color: #242526;
+}
+
+.highlight-red {
+  color: rgb(240, 40, 74)
 }
