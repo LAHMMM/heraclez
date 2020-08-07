@@ -7,6 +7,24 @@ h2 {
   text-shadow: 2px 2px 50px;
   text-align: center;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.checked {
+  color: orange;
+}
+
 
 .logo {
   display: block;
@@ -14,13 +32,55 @@ h2 {
   margin-right: auto;
   opacity: 0.5;
 }
+body, html {
+  height: 100%;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: grey;
+  color: white;
+  font-size: 30px;
+}
+* {
+  box-sizing: border-box;
+}
 
+.bg-image {
+  /* The image used */
+  background-image: url("img/heraclez.png");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  border-radius: 100%;
+  border: 3px solid white;
+  image-orientation: Center;
+}
 .logo:hover {
   opacity: 1.0;
 }
 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
 div.background {
-  border: 2px solid black;
+
+   border: 2px solid black;
 }
 
 .transbox {
@@ -47,11 +107,6 @@ h1 {
 .monospace {
   font-family: "Lucida Console", Courier, monospace;
 }
-
-.nav-bar {
-  background: black;
-}
-
 .navbar-header {
   margin: 0;
   padding: 0;
@@ -67,21 +122,17 @@ h1 {
 }
 
 .nav-icons {
-  font-size: 2.5em;
+  font-size: 2em;
+  border: 1px solid grey;
 }
 
 .nav-icons a{
   color: white;
 }
 
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-.flex-item {
-  margin: auto;
+p {
+  font-family: verdana;
+  font-size: 20px;
 }
 
 body {
@@ -102,19 +153,8 @@ body {
   background-color:rgb(255, 255, 255, 0.1);
 }
 
+
 .h-nav {
   border: 1px solid black;
   padding: 24px;
-}
-
-.stream-date {
-  color: rgb(240, 40, 74)
-}
-
-.bg-dark {
-  background-color: #242526;
-}
-
-.highlight-red {
-  color: rgb(240, 40, 74)
 }
