@@ -13,70 +13,53 @@
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
       crossorigin="anonymous"
     >
-
     <link rel="stylesheet" href="main.css">
 
     <title>HERACLEZ</title>
   </head>
   <body>
-    <div class="container">
-      <h2>Create Events</h2>
 
-      <div class="input-group">
-  <div class="input-group-prepend">
-    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
-  </div>
-  <div class="custom-file">
-    <input type="file" class="custom-file-input" id="inputGroupFile01"
-      aria-describedby="inputGroupFileAddon01">
-    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
-  </div>
-</div>
+   <div class="list-group">
+     <a href="#" class="list-group-item list-group-item-action active">
+       <div class="d-flex w-100 justify-content-between">
+         <h5 class="mb-1">Notifications</h5>
+         <small>3 days ago</small>
+       </div>
+       <p class="mb-1">Max Mustermann invited you to an Event.</p>
+       <small>  Basketball Match NK
+       </strong>
+       <p>Pick up game for students near herrmanplatz.</p></small>
+     </a>
+     <a href="#" class="list-group-item list-group-item-action">
+       <div class="d-flex w-100 justify-content-between">
+         <h5 class="mb-1">Havvagül invited you to an Event</h5>
+         <small class="text-muted">3 days ago</small>
+       </div>
 
-      <form class="mb-8">
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputEmail4">Title</label>
-            <input type="text" class="form-control" id="inputEmail4" placeholder="Insert a Title">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="inputPassword4">Description</label>
-            <input type="text" class="form-control" id="inputPassword4" placeholder="Add a Description">
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="inputAddress">Start Date</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="Pick a Date">
-        </div>
-        <div class="form-group">
-          <label for="inputAddress2">End Date</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Pick an end Date">
-        </div>
-        <div class="form-row mb-8">
-          <div class="form-group col-md-6">
-            <label for="inputCity">Location</label>
-            <input type="text" class="form-control" id="inputCity" placeholder="Pick a Location">
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputState">Privacy</label>
-            <select id="inputState" class="form-control">
-              <option selected>Public</option>
-              <option>Private</option>
-              <option>Friends</option>
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="inputZip">Max. Number of attendees</label>
-            <input type="text" class="form-control" id="inputZip">
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary btn-lg btn-block">Create</button>
-      </form>
+       <small class="text-muted">
+         Basketball Match NK
+        <p>Searching 6ft1 to 6ft5 opponent for 1 on 1 near Eisenacher Strasse</p></small>
+     </a>
+     <a href="#" class="list-group-item list-group-item-action">
+       <div class="d-flex w-100 justify-content-between">
+         <h5 class="mb-1">XY invited you to an Event</h5>
+         <small class="text-muted">3 days ago</small>
+       </div>
+       <small class="text-muted">
+        Learning to skate wherever
+        <p>Female beginner wants to learn something from experienced skaters</p></small>
+     </a>
+   </div>
+
+
+   <button type="submit" class="btn btn-primary btn-lg btn-block">Clear</button>
+
+
 
       <!-- Navigation START -->
       <div class="flex-container fixed-bottom nav-bar">
         <div class="flex-item nav-icons">
-          <a class="nav-link" href="">
+          <a class="nav-link" href="notifications.html">
             <i class="far fa-bell"></i>
           </a>
         </div>
@@ -103,9 +86,6 @@
       </div>
       <!-- Navigation END -->
     </div>
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
