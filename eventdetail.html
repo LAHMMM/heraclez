@@ -18,30 +18,48 @@
     <title>HERACLEZ</title>
   </head>
   <body>
+
     <div class="container">
-
-      <img src="img/dummyEventPic.png" class="card-img-top mb-4" alt="...">
-
-      <div class="card bg-dark-custom mb-4">
-        <div class="card-body">
-          <p class="stream-date">TOMORROW 3 PM</p>
-          <strong class="card-title dark-white">
-            <i class="fas fa-globe-americas highlight-red"></i>
-            <h2>Basketball Match NK</h2>
-          </strong>
-          <p>Pick up game for students near herrmanplatz.</p>
-        </div>
+      <img src="img/dummyEventPic.png" class="card-img-top" alt="...">
+      <div class="text-center">
+        <p class="stream-date">TOMORROW 3 PM</p>
       </div>
+      <strong class="card-title dark-white">
+        <i class="fas fa-globe-americas highlight-red"></i>
+        <h2>
+          Basketball Match NK
+        </h2>
+      </strong>
+      <p>Pick up game for students near herrmanplatz.</p>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+Join Event
+</button>
 
-      <img src="img/gMap.png" class="card-img-top mb-4" alt="...">
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
 
-      <a href="#" class="btn btn-primary btn-lg btn-block mb-8">Join Event</a>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="redtitle">
+        Congrats! You just joined an Event! exciting isnt it?
+      </div>
+      <div class="modal-footer">
+        <a href="stream.html" class="btn btn-primary btn-lg btn-block">Return to Stream</a>
 
-
+      </div>
+    </div>
+  </div>
+</div>
       <!-- Navigation START -->
       <div class="flex-container fixed-bottom nav-bar">
         <div class="flex-item nav-icons">
-          <a class="nav-link" href="notifications.html">
+          <a class="nav-link" href="Notifications.html">
             <i class="far fa-bell"></i>
           </a>
         </div>
@@ -52,7 +70,7 @@
         </div>
         <div class="flex-item nav-icons">
           <a class="nav-link" href="stream.html">
-            <i class="fas fa-stream"></i>
+            <i class="fas fa-stream highlight-red"></i>
           </a>
         </div>
         <div class="flex-item nav-icons">

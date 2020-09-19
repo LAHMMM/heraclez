@@ -122,6 +122,15 @@ h1 {
   color: rgb(240, 40, 74)
 }
 
+.redtitle{
+color: rgb(240, 40, 74);
+text-align: center;
+font-size: 1.6em;
+text-shadow: black;
+
+
+
+}
 .bg-dark-custom {
   background-color: #242526;
 }
@@ -139,6 +148,7 @@ h1 {
 .flex-item {
   margin: auto;
 }
+
 
 .mb-8 {
   margin-bottom: 8em;

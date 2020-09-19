@@ -19,56 +19,67 @@
     <title>HERACLEZ</title>
   </head>
   <body>
+    <p class="redtitle">Create your own Event!</p>
+
+
     <div class="container">
-      <h2>Create Events</h2>
-
-      <div class="input-group">
-  <div class="input-group-prepend">
-    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
-  </div>
-  <div class="custom-file">
-    <input type="file" class="custom-file-input" id="inputGroupFile01"
-      aria-describedby="inputGroupFileAddon01">
-    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
-  </div>
-</div>
-
       <form class="mb-8">
         <div class="form-row">
+
           <div class="form-group col-md-6">
-            <label for="inputEmail4">Title</label>
+            <label for="inputEmail4" class="redtitle">Title</label>
             <input type="text" class="form-control" id="inputEmail4" placeholder="Insert a Title">
           </div>
           <div class="form-group col-md-6">
-            <label for="inputPassword4">Description</label>
+            <label for="inputPassword4"class="redtitle">Description</label>
             <input type="text" class="form-control" id="inputPassword4" placeholder="Add a Description">
           </div>
         </div>
+
         <div class="form-group">
-          <label for="inputAddress">Start Date</label>
+          <label for="inputAddress"class="redtitle">Start Date</label>
           <input type="text" class="form-control" id="inputAddress" placeholder="Pick a Date">
         </div>
         <div class="form-group">
-          <label for="inputAddress2">End Date</label>
+          <label for="inputAddress2"class="redtitle">End Date</label>
           <input type="text" class="form-control" id="inputAddress2" placeholder="Pick an end Date">
         </div>
-        <div class="form-row mb-4">
+        <div class="form-row mb-8">
+
           <div class="form-group col-md-6">
-            <label for="inputCity">Location</label>
+            <label for="inputCity"class="redtitle">Location</label>
             <input type="text" class="form-control" id="inputCity" placeholder="Pick a Location">
           </div>
+
           <div class="form-group col-md-4">
-            <label for="inputState">Privacy</label>
+            <label for="inputState"class="redtitle">Privacy</label>
             <select id="inputState" class="form-control">
               <option selected>Public</option>
               <option>Private</option>
               <option>Friends</option>
             </select>
           </div>
+
           <div class="form-group col-md-2">
-            <label for="inputZip">Max. Number of attendees</label>
-            <input type="text" class="form-control" id="inputZip">
+            <label for="inputZip" class="redtitle">Max. Number of attendees</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="Pick a maximum number of attendees">
           </div>
+
+
+
+  <p class="redtitle">Choose an Image</p>
+          <br>
+      <div class="input-group mb-1">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+    </div>
+    <div class="custom-file">
+      <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+      <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+    </div>
+  </div>
+
+    </div>
         </div>
         <button type="submit" class="btn btn-primary btn-lg btn-block">Create</button>
       </form>
@@ -82,12 +93,12 @@
         </div>
         <div class="flex-item nav-icons">
           <a class="nav-link" href="create.html">
-            <i class="fas fa-plus-circle highlight-red"></i>
+            <i class="fas fa-plus-circle"></i>
           </a>
         </div>
         <div class="flex-item nav-icons">
           <a class="nav-link" href="stream.html">
-            <i class="fas fa-stream"></i>
+            <i class="fas fa-stream highlight-red"></i>
           </a>
         </div>
         <div class="flex-item nav-icons">
@@ -96,7 +107,7 @@
           </a>
         </div>
         <div class="flex-item nav-icons">
-          <a class="nav-link" href="">
+          <a class="nav-link" href="settings.html">
             <i class="fas fa-cog"></i>
           </a>
         </div>
