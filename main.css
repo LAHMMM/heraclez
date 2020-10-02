@@ -139,6 +139,10 @@ text-shadow: black;
   color: rgb(240, 40, 74)
 }
 
+.highlight-red-bg {
+  background: rgb(240, 40, 74)
+}
+
 .flex-container {
   display: flex;
   flex-flow: row wrap;
